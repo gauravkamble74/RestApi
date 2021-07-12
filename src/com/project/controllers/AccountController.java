@@ -1,16 +1,16 @@
-package com.project.controller;
+package com.project.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+
 @Controller
-public class MainController {
+public class AccountController {
 	
 	@RequestMapping("/")
 	public String welcome()
 	{
 		return "index";
-		
 	}
-
+	
 }
